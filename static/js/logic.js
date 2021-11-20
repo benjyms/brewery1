@@ -47,7 +47,7 @@ streetmap.addTo(myMap);
 
 
 // get the data with d3
-d3.json("data/usbreweries.geojson").then(function(data) {
+d3.json("../data/usbreweries.geojson").then(function(data) {
     console.log(data);
 
   // create a new marker cluster group

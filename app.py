@@ -1,8 +1,9 @@
 #  import libaries
-from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
-import os
-import json
-import requests
+from flask import Flask, render_template
+
+# import os
+# import json
+# import requests
 
 # Flask Setup
 app = Flask(__name__)
